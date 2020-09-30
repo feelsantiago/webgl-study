@@ -1,0 +1,26 @@
+{
+    "name": "webgl",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html"
+    },
+    "staticFiles": {
+        "staticPath": "assets",
+        "watcherGlob": "**"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bulma": "^0.9.1",
+        "gl-matrix": "^3.3.0"
+    },
+    "devDependencies": {
+        "cssnano": "^4.1.10",
+        "parcel-plugin-static-files-copy": "^2.5.0",
+        "sass": "^1.26.11",
+        "typescript": "^4.0.3"
+    }
+}
